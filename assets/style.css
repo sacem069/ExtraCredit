@@ -7,17 +7,26 @@ body {
 }
 
 h1 {
-    font-size: 20px;
+    font-size: 22px;
      margin-bottom: 60px;
      margin-top: 20px;
 
 }
 
 figcaption {
-    font-size: 12px;
+    font-size: 14px;
     text-align: center;
     margin-top: 20px;
     line-height: 1.8;
+}
+
+
+@media (width > 768px){
+    figcaption {
+        font-size: 16px;
+
+
+    }
 }
 
 figcaption a {
@@ -130,6 +139,5 @@ button {
 }
 
 button:hover {
-    background: black;
-    color: white;
+    background: rgb(233, 233, 233);
 }
