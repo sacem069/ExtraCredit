@@ -1,1 +1,22 @@
 
+.disc {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background: #1a3a6b;
+  position: relative;
+}
+
+.ring {
+  position: absolute;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ring:nth-child(1) { width: 90%; height: 90%; background: #e8eef7; }
+.ring:nth-child(2) { width: 70%; height: 70%; background: #1a3a6b; }
+.ring:nth-child(3) { width: 50%; height: 50%; background: #e8eef7; }
+.ring:nth-child(4) { width: 30%; height: 30%; background: #1a3a6b; }
+.ring:nth-child(5) { width: 10%; height: 10%; background: #e8eef7; }
